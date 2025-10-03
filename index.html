@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- 
+Name: Ashirvad Khanal
+Date: 10.3.2025
+CSC 372-01
+
+This is the index.html page this page contains 3 sections: player throw, computer throw, and result. using this page user can play rock paper scissors game against computer.
+Using this html page user can select rock, paper, or scissors and computer will randomly select one of the three options and display the result of the game.
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Rock Paper Scissors Game</h1>
+    </header>
+
+    <main>
+        <section id="player-throw">
+            <h2>Your Throw</h2>
+            <div class="choices">
+                <button class="choice" id="rock">
+                    <img src="images/rock.PNG" alt="Rock hand symbol">
+                </button>
+                <button class="choice" id="paper">
+                    <img src="images/paper.PNG" alt="Paper hand symbol">
+                </button>
+                <button class="choice" id="scissors">
+                    <img src="images/scissors.PNG" alt="Scissors hand symbol">
+                </button>
+            </div>
+        </section>
+
+        <section id="computer-throw">
+            <h2>Computer Throw</h2>
+            <img id="computer-image" src="images/question-mark.PNG" alt ="question-mark">
+        </section>
+
+        <section id="throw-result">
+            <h2>Result</h2>
+            <p id="result-text">Make a move to start a game</p>
+            <button id="play-again">Play Again</button>
+        </section>
+    </main>
+</body>
+
+</html>
